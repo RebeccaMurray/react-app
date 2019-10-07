@@ -18,17 +18,28 @@ export const subtitle = css`
 export const grid = css`
     display: inline-flex;
     flex-direction: row;
+    align-items: center;
     width: 70%;
     margin-left: 15%;
     `
 export const gridbox = css`
-    background-color: green;
     width: 30%;
     height: 150px;
+    text-align: center;
     img {
+        color: red;
         height: 100px;
+        padding: 20px;
     }
     `
+export const gridTop = css`
+    ${gridbox}
+    border-bottom: 8px solid red;`
+
+export const gridLeft = css`
+    ${gridbox}
+    border-right: 8px solid red;`
+
 export const header = css`
     font-size: 24px;
     color: white;
