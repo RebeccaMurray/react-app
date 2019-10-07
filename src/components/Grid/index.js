@@ -10,7 +10,7 @@ import headshot from "../../svg/headshot.jpg"
 
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core';
-
+// change
 class Grid extends React.Component {
 
     render() {
