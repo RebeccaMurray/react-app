@@ -5,11 +5,11 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div className={header}>
-                <div className={headerTitle}>
+            <div css={header}>
+                <div css={headerTitle}>
                     <h1>Rebecca Murray</h1>
                 </div>
-                <div className={headerContact}>
+                <div css={headerContact}>
                     <h3>Contact</h3>
                 </div>
             </div>
