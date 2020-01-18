@@ -9,8 +9,7 @@ function App() {
   return (
     <div >
       <Header />
-        <Info />
-        <Grid />
+      <Grid />
     </div>
   );
 }

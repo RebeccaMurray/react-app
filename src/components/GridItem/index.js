@@ -1,13 +1,17 @@
 import React from "react";
-import { thisExpression } from "@babel/types";
+import gridItemStyles from './styles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+/** @jsx jsx */
+import { css, jsx } from '@emotion/core'
 
 class GridItem extends React.Component {
 
     render() {
         return (
-            <div {...this.props}>
-                <img src={this.props.icon} />
+            <div css={gridItemStyles.gridItem} {...this.props}>
+                {/* <img src={this.props.icon} /> */}
+                <FontAwesomeIcon icon={this.props.icon} />
             </div>
         );
     }
